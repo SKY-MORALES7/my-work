@@ -1,0 +1,44 @@
+
+*{ margin:0;
+    padding:0;
+    box-sizing:0;
+
+
+}
+
+
+h1 {  font-size:100px;
+    text-align: center;
+    font-family: Helvetica, monospace;}
+    
+
+ .thick-blue{
+     width: 400px; height: 200px;
+    border-color: rgba(128, 62, 0, 0.767);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;}
+    h1{
+        background-color: rgb(151, 62, 62);
+    }
+    .silver-background{
+        background-color:peachpuff;
+    }
+
+body { background-color:rgb(28, 91, 128)
+
+    } 
+    .lmp{
+        width: 400px; height: 200px;
+        border-color: brown;
+        border-width: 5px;
+        border-style: solid;
+        border-radius:50px;
+    }
+    .post{
+         width: 400px; height: 200px;
+        border-color: brown;
+        border-width: 5px;
+        border-style: solid;
+        border-radius:50px;
+    }

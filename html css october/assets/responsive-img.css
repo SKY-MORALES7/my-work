@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+           padding: 15px;
+
+}
+/* section{
+           border:1px solid red;
+
+}  */
+#logo-image{
+           margin-bottom: 30px;
+}
+#logo-image img{
+           width:20%;
+           height:auto;
+           display: block;
+
+}
+
+
+figure img{
+            width: 30%;
+            height: auto;
+            border-radius: 50%;
+            margin-left: 40px;
+}
+/* this is a block level element */
+figure figcaption{
+    /* for fig caption to not appear */
+    position: absolute;
+    left:-999px;
+    overflow: hidden;
+}
+
+.container{ 
+    background-color: aquamarine;
+    background-image:url(/assets/images/imggg.avif);
+    background-repeat: no-repeat ;
+    background-size:cover ;
+    background-position:center;}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+
+
+   
+}
+
+
+/* .hero img{
+    border: 1px solid sandybrown;
+} */
+
+
+/* .hero h1{
+    border: 1px solid green;
+} */
+
+/* .hero figure{
+    border: 1px solid blue; }*/
+
+/* .hero h1{
+    width: 6ch;      
+    this is for the number of characters on a line
+
+} */
+.hero figure{
+    width: 30%;
+}
+
+.hero span{
+    display: block;
+    /* for making text to come to another line */
+}
+
+
+.hero h1{
+    font-size:50px;
+    text-align: 2px 2px 5px black;
+    padding-right: 40px;
+
+}
