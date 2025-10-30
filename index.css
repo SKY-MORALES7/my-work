@@ -14,10 +14,10 @@ header{
  display: flex;
  justify-content: space-between;
  align-items: center;
-  flex-wrap: wrap;  
+ flex-wrap: wrap;  
   /* allows wrapping on small screens */
-  background-color: white;
-  font-size: smaller;
+background-color: white;
+font-size: smaller;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 position: sticky;
 top: 0;
@@ -55,7 +55,8 @@ width: 100%;
 
 
 
-.nav-links ul{            /* they stacked vertically when i wrapped all in the anchor instead of a */
+.nav-links ul{            
+  /* they stacked vertically when i wrapped all in the anchor instead of a */
      display:flex;           
      gap: 3rem;
      list-style: none;
@@ -76,7 +77,7 @@ width: 100%;
 
 
 .container{
-      /* border: 1px solid red; */
+    
      background-image: url('https://www.rammaheshwari.com/assets/svg/common-bg.svg');
      background-size: cover;
      background-repeat: no-repeat;
@@ -86,7 +87,7 @@ width: 100%;
 
 
 .container h2{
-   text-align: center;
+    text-align: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 140px;
@@ -111,11 +112,9 @@ width: 100%;
 }
   
 .button{     
-     display: inline-block;  
+  display: inline-block;  
   background-color:rgb(123, 18, 221);       
   padding: 10px 20px;
-
-  
   border-radius: 5px;          
   text-decoration: none;       /* remove underline */
   cursor: pointer;             /* pointer cursor */
@@ -143,7 +142,6 @@ width: 100%;
  justify-content: center;
  margin-top:95px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- /* border:1px solid blue; */
  margin-left: 15%;
 
 }
@@ -171,7 +169,6 @@ margin-right: 3%;
   line-height: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
-  /* border: 1px solid red; */
   height: 400px;
         
 }
@@ -240,12 +237,9 @@ color: rgb(90, 86, 86);
   transform: translateY(-10px);
 }
 
-.box{
-     /* border: 1px solid green; */
-}
 
 .container-3{
-     /* border: 1px solid greenyellow; */
+     
 }
 .container-3 h2{
 font-size: 35px;
@@ -296,7 +290,7 @@ margin-top: 40px;
 
 .text-content p {
   max-width: 50ch;  
-  line-height: 1.5rem;         /* keeps text readable */
+  line-height: 1.5rem;       
   margin-bottom:2rem ;
   text-align: justify;
 }
@@ -336,7 +330,7 @@ margin: 0 auto;
 margin-top: 40px;
 justify-content: center;
 align-items: center;
-/* border: 1px solid red; */
+
 }
 
 .sc-6{
@@ -366,23 +360,21 @@ align-items: center;
 }
 
 .button-3 {
-  display: inline-block;          /* makes the link behave like a button */
-  background-color: purple;       /* purple background */
-  color: white;                   /* white text */
-  padding: 10px 20px;             /* space inside button */
-  text-decoration: none;          /* remove underline */
-  border-radius: 6px;             /* rounded corners */
-  transition: all 0.3s ease;     /* smooth hover effect */
+  display: inline-block;         
+  background-color: purple;       
+  color: white;                   
+  padding: 10px 20px;             
+  text-decoration: none;          
+  border-radius: 6px;            
+  transition: all 0.3s ease;     
   transition-delay: 0.5s;     
   margin-top: 20px; 
                
 
 }
-
-/* Hover effect */
 .button-3:hover {
-  background-color: rebeccapurple;  /* slightly different purple on hover */
-  transform: translateY(-5px);           /* makes button pop slightly */
+  background-color: rebeccapurple;  
+  transform: translateY(-5px);           
 }
 
 .form-1{
@@ -401,9 +393,9 @@ align-items: center;
      background-color: rgba(128, 128, 128, 0.171);
 }
 .button-4 {
-  background-color: purple;    /* button background */
-  color: white;                /* text color */
-  border: none;                /* removes default border */
+  background-color: purple;  
+  color: white;                  
+  border: none;             
   padding: 10px 20px;
   border-radius: 8px;
   font-size: 16px;
@@ -414,7 +406,7 @@ align-items: center;
 }
 
 .button-4:hover {
-  background-color: rebeccapurple; /* slightly lighter on hover */
+  background-color: rebeccapurple;
   transform: translateY(-3px);
 }
 
@@ -427,7 +419,6 @@ align-items: center;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      color: white;
      background-color: black;
-     /* border: 1px solid red; */
      padding-top: 50px;
      position: relative;
 }
@@ -442,9 +433,9 @@ align-items: center;
 
 .icons {
   position: absolute;      /* allows precise placement */
-  right: 20px;             /* moves it toward the right edge */ 
+  right: 20px;             /* moves it toward the right edge */
   display: flex;
-  gap: 15px;               /* space between icons */
+  gap: 15px;               
   align-items: center;
 }
 
@@ -476,7 +467,7 @@ padding: 2%;
 }
     
 
- /* 📱 For small screens (phones) */
+ /* For small screens (phones) */
    
 @media (max-width: 576px) {
 
@@ -541,9 +532,8 @@ padding: 2%;
 
 }
 
-/* --------------------------- */
-/* 💻 For medium screens (tablets)
-   between 577px and 768px
+
+/*  For medium screens (tablets)
 /* --------------------------- */
 @media (min-width: 577px) and (max-width: 768px) {
 
