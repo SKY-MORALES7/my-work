@@ -78,6 +78,7 @@ width: 100%;
 .container{
     
      background-image: url('https://www.rammaheshwari.com/assets/svg/common-bg.svg');
+     opacity: ;
      background-size: cover;
      background-repeat: no-repeat;
      padding:100px 20px;
@@ -189,8 +190,16 @@ margin-right: 3%;
 display: flex;
 flex-wrap: wrap;
 gap: 10px;
+margin-left: 50px;
 
+}
 
+.h2{
+margin-left: 50px;
+}
+
+.box{
+  margin-left: 50px;
 }
 
 .boxes{
